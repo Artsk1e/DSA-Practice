@@ -47,4 +47,19 @@ public class DoublyLinkedList {
         }
         System.out.print("null");
     }
+
+    public void reverseDisplay(){
+        if(head == null) return;
+        Node current = head;
+
+        while (current.next != null){
+            current = current.next;
+        }
+
+        while (current != null){
+            System.out.print("[" + current.data + "] <-> ");
+            current = current.prev;
+        }
+        System.out.println("null");
+    }
 }

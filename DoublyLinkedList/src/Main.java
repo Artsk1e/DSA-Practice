@@ -12,6 +12,8 @@ public class Main {
         list.insertAtFront(1);
 
         list.displayInfo();
+        System.out.println(" ");
+        list.reverseDisplay();
 		}
 	}
 
