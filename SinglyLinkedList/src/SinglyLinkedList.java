@@ -53,4 +53,15 @@ public class SinglyLinkedList {
         }
         System.out.println("null");
     }
+
+    public boolean search(int target){
+        Node current = head;
+        while (current != null){
+            if(current.data == target){
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
 }
