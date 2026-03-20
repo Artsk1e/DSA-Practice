@@ -67,4 +67,16 @@ public class DoublyLinkedList{
         }
         System.out.print("null");
     }
+
+    public boolean search(int target){
+        if(head == null) return false;
+        Node current = head;
+        while (current != null){
+            if (current.data == target){
+                return true;
+            }
+            current = current.next;
+        }
+        return false;
+    }
 }
