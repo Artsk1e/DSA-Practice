@@ -9,11 +9,21 @@ class Node{
 
 public class SimpleStack {
     Node top = null;
+    int stackSize=0;
+
+    public boolean isEmpty(){
+        return top == null;
+    }
+
+    public int size(){
+        return stackSize;
+    }
 
     public void push(int x){
         Node newNode = new Node(x);
         newNode.next = top;
         top = newNode;
+        stackSize++;
     }
 
     public int pop(){
@@ -22,6 +32,7 @@ public class SimpleStack {
         }
         int value = top.data;
         top = top.next;
+        stackSize--;
         return value;
     }
 
@@ -46,6 +57,24 @@ public class SimpleStack {
             current = current.next;
         }
         System.out.println("-> BOTTOM");
+    }
+
+
+    public void reverseStack(){
+        if(isEmpty()) return;
+        SimpleStack tempstack1 = new SimpleStack();
+        SimpleStack tempstack2 = new SimpleStack();
+
+        while(!this.isEmpty()){
+            tempstack1.push(this.pop());
+        }
+        while(!tempstack1.isEmpty()){
+            tempstack2.push(tempstack1.pop());
+        }
+
+        while (!tempstack2.isEmpty()){
+            this.push(tempstack2.pop());
+        }
 
     }
 }

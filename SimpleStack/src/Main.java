@@ -19,5 +19,8 @@ public class Main {
         System.out.println("Stack after 1 pop");
         stack.display();
 
+        stack.reverseStack();
+        stack.display();
+
 	}
 }
