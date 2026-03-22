@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BrowserHistoryStack/BrowserHistoryStack.iml" filepath="$PROJECT_DIR$/BrowserHistoryStack/BrowserHistoryStack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" filepath="$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA PRACTICE.iml" filepath="$PROJECT_DIR$/.idea/DSA PRACTICE.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" filepath="$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleBrowseLinkedList/SimpleBrowseLinkedList.iml" filepath="$PROJECT_DIR$/SimpleBrowseLinkedList/SimpleBrowseLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleStack/SimpleStack.iml" filepath="$PROJECT_DIR$/SimpleStack/SimpleStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/SinglyLinkedList/SinglyLinkedList.iml" filepath="$PROJECT_DIR$/SinglyLinkedList/SinglyLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UndoManagerStackExample/UndoManagerStackExample.iml" filepath="$PROJECT_DIR$/UndoManagerStackExample/UndoManagerStackExample.iml" />
     </modules>
   </component>
 </project>
