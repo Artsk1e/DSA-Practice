@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/SimpleBrowseLinkedList/SimpleBrowseLinkedList.iml" filepath="$PROJECT_DIR$/SimpleBrowseLinkedList/SimpleBrowseLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/SimpleStack/SimpleStack.iml" filepath="$PROJECT_DIR$/SimpleStack/SimpleStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/SinglyLinkedList/SinglyLinkedList.iml" filepath="$PROJECT_DIR$/SinglyLinkedList/SinglyLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TextEditor/TextEditor.iml" filepath="$PROJECT_DIR$/TextEditor/TextEditor.iml" />
       <module fileurl="file://$PROJECT_DIR$/UndoManagerStackExample/UndoManagerStackExample.iml" filepath="$PROJECT_DIR$/UndoManagerStackExample/UndoManagerStackExample.iml" />
     </modules>
   </component>
