@@ -38,6 +38,7 @@ public class PriorityQueue {
             queueArray[i + 1] = item;
             nItems++;
         }
+        System.out.println("Enqueued: " + item);
     }
 
     public int dequeue(){
