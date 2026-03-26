@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/ActionRedoManager/ActionRedoManager.iml" filepath="$PROJECT_DIR$/ActionRedoManager/ActionRedoManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/BrowserHistoryStack/BrowserHistoryStack.iml" filepath="$PROJECT_DIR$/BrowserHistoryStack/BrowserHistoryStack.iml" />
       <module fileurl="file://$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" filepath="$PROJECT_DIR$/CircularLinkedList/CircularLinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircularQueue/CircularQueue.iml" filepath="$PROJECT_DIR$/CircularQueue/CircularQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA PRACTICE.iml" filepath="$PROJECT_DIR$/.idea/DSA PRACTICE.iml" />
       <module fileurl="file://$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" filepath="$PROJECT_DIR$/DoublyLinkedList/DoublyLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/Minstack/Minstack.iml" filepath="$PROJECT_DIR$/Minstack/Minstack.iml" />
