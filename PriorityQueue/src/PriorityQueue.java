@@ -1,4 +1,3 @@
-import java.security.PublicKey;
 
 public class PriorityQueue {
     private int maxSize;
@@ -52,7 +51,6 @@ public class PriorityQueue {
     public void display(){
         if(isEmpty()){
             System.out.println("Queue is empty");
-            return;
         } else{
         System.out.print("[ ");
         for(int i = nItems-1; i >= 1; i--) {
