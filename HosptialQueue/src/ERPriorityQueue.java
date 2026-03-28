@@ -35,10 +35,10 @@ public class ERPriorityQueue {
     public void treatPatient(){
         if(head == null){
             System.out.println("Empty Waiting room.");
-        } else {
+            return;
+        }
             System.out.println("Now treating: " + head.name);
             head = head.next;
-        }
     }
 
     public void showWaitingRoom(){
